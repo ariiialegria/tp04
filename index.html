@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>👉 Trabajo 04 - Uso de tablas</title>
 </head>
+
 <body>
     <h3> ¿Cuál es la etiqueta principal utilizada para crear una tabla en HTML?</h3>
-    <p> La etiqueta  </p>
+    <p> La etiqueta table es la principal para realizar una tabla en HTML, esta se cierra con /table. </p>
+
+    <h3>¿Qué etiqueta se utiliza para definir una fila en una tabla? </h3>
+    <p> La etiqueta que se utiliza para definir una fila es tr (table row)</p>
+
+    <h3>¿Cuál es la etiqueta utilizada para crear una celda de encabezado en una tabla? </h3>
+    <p>Se utiliza th para crear una celda de encabezado. </p>
+
+    <h3>¿Cuál es la etiqueta utilizada para crear una celda de datos en una tabla?</h3>
+    <p> Se utiliza td para crear una celda de datos.</p>
+
+    <h3>¿Qué atributo se utiliza para especificar cuántas columnas debe abarcar una celda?</h3>
+    <p> Con el atributo colspan se pueden expandir las celdas que necesitamos. </p>
+
+    <h3>¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda?</h3>
+    <p> Con el atributo rowspan se puede expandir hacia abajo las filas que necesitemos. </p>
+
+    <h3>Si necesitamos crear una tabla con 10 filas ¿qué etiqueta y cuántas veces se debe utilizar para definir las
+        filas?</h3>
+    <p> Hay que utilizar la etiqueta tr para empezar con el encabezado de la tabla y seguimos con td para crear las 10
+        filas que necesitamos.</p>
+
+    <h3>👉 TABLA 1</h3>
+    <p>Realizar una tabla que contenga 5 alimentos y por cada uno de ellos se debe visualizar: nombre, calorías, tipo
+        (fruta, verdura, lácteos, etc), imagen.</p>
+
+    <header>
+        <h1>Tabla 1</h1>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Calorias</th>
+                <th>Tipo</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Sandia</td>
+                <td>30</td>
+                <td>Fruta</td>
+                <td> <img src="f638x638-31489_89656_5445.jpg" alt="Sandia" width="100" height="100"> </td>
+            </tr>
+            <tr>
+                <td>Mate</td>
+                <td>75</td>
+                <td>Bebida</td>
+                <td> <img src="mates.jpg" alt="Mate" width="100" height="100"> </td>
+            </tr>
+            <tr>
+                <td>Cheesecake</td>
+                <td>321</td>
+                <td>Postre</td>
+                <td> <img src="cheesecake.jpg" alt="cheesecake" width="100" height="100"> </td>
+            </tr>
+            <tr>
+                <td>pizza</td>
+                <td>266</td>
+                <td>Comida</td>
+                <td> <img src="pizza.jpg" alt="pizza" width="100" height="100"> </td>
+            </tr>
+            <tr>
+                <td>Helado de menta granizada</td>
+                <td>219</td>
+                <td>Postre</td>
+                <td> <img src="helado-de-menta-y-chocolate.jpg" alt="helado de menta granizada" width="100"
+                        height="100">
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p> Tabla de comidas y calorias</p>
+    </footer>
+
+    <header>
+        <h1>👉 TABLA 2</h1>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <th><strong>POS.</strong></th>
+                <th><strong>Número</strong></th>
+                <th><strong>Piloto</strong></th>
+                <th><strong>Marca</strong></th>
+                <th><strong>Vueltas</strong></th>
+                <th><strong>Tiempo</strong></th>
+                <th><strong>Diferencias</strong></th>
+            </tr>
+            <tr>
+                <td>1°</td>
+                <td>231</td>
+                <td>Urcera,José Manuel</td>
+                <td> <img src="logo-ford-xs.png" alt="ford" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:28.539</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>121</td>
+                <td>Craparo,Elio</td>
+                <td> <img src="cornudo1.png" alt="cornudo1" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:29.740</td>
+                <td>1.201</td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>4</td>
+                <td>Castellano,Jonatan</td>
+                <td> <img src="cornudo1.png" alt="cornudo1" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:31.206</td>
+                <td>2.667</td>
+            </tr>
+            <tr>
+                <td>4°</td>
+                <td>96</td>
+                <td>Benvenuti,Juan Cruz</td>
+                <td> <img src="cruz.png" alt="cruz" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:33.118</td>
+                <td>4.579</td>
+            </tr>
+            <tr>
+                <td>5°</td>
+                <td>10</td>
+                <td>Aguirre,Valentín</td>
+                <td><img src="cruz.png" alt="cruz" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:33.764</td>
+                <td>5.225</td>
+            </tr>
+            <tr>
+                <td>6°</td>
+                <td>19</td>
+                <td>Ciantini,Diego</td>
+                <td><img src="cruz.png" alt="cruz" width="50" height="50"></td>
+                <td>25</td>
+                <td>39:37.838</td>
+                <td>9.299</td>
+            </tr>
+
+        </table>
+    </main>
+
+    <footer>
+        <p> Tabla de pilotos</p>
+    </footer>
 
 </body>
+
 </html>
